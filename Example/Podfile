@@ -1,0 +1,21 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'BlinkAnimationKit_Example' do
+    use_frameworks!
+    
+    pod "BlinkAnimationKit", :path => "../"
+    
+    target 'BlinkAnimationKit_Tests' do
+        inherit! :search_paths
+        pod "BlinkAnimationKit", :path => "../"
+        pod 'FBSnapshotTestCase'
+    end
+end
+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |configuration|
+            configuration.build_settings['SWIFT_VERSION'] = "5.0"
+        end
+    end
+end

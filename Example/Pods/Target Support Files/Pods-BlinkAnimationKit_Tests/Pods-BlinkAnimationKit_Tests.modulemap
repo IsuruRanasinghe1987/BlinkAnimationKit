@@ -1,0 +1,6 @@
+framework module Pods_BlinkAnimationKit_Tests {
+  umbrella header "Pods-BlinkAnimationKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module BlinkAnimationKit {
+  umbrella header "BlinkAnimationKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
