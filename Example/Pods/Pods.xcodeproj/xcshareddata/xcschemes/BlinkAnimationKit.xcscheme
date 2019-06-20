@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BE65DE274BDD3FDB2C1B2998C42BE654"
-               BuildableName = "SYBlinkAnimationKit.framework"
+               BuildableName = "BlinkAnimationKit.framework"
                BlueprintName = "BlinkAnimationKit"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BE65DE274BDD3FDB2C1B2998C42BE654"
-            BuildableName = "SYBlinkAnimationKit.framework"
+            BuildableName = "BlinkAnimationKit.framework"
             BlueprintName = "BlinkAnimationKit"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>

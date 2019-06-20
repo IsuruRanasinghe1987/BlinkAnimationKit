@@ -1,15 +1,10 @@
-<p align="center">
-<img src="https://github.com/shoheiyokoyama/Assets/blob/master/SYBlinkAnimationKit/logo.png">
-</p>
-
 [![Platform](http://img.shields.io/badge/platform-ios-blue.svg?style=flat
 )](https://developer.apple.com/iphone/index.action)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-Compatible-brightgreen.svg?style=flat)](https://github.com/Carthage/Carthage)
 ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
- [![Language](https://img.shields.io/badge/language-Swift%203.0-orange.svg)](https://swift.org)
+ [![Language](https://img.shields.io/badge/language-Swift%205.0-orange.svg)](https://swift.org)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/shoheiyokoyama/SYBlinkAnimationKit/blob/master/LICENSE)
 
-**SYBlinkAnimationKit** is a blink effect animation framework for iOS, written in **Swift** :bowtie:
+**BlinkAnimationKit** is a blink effect animation framework for iOS, written in **Swift 5**. The credit should go to original **author Shohei Yokoyama**. This is his library updated to swift 5 :bowtie:
 
 ## :eyes: Demo
 
@@ -45,7 +40,7 @@ There are 5 types of animation for component.
 - The 5 types of animation : `border`,  `borderWithShadow`,  `background`, `ripple`, `text`
 - Easily usable :stuck_out_tongue_closed_eyes:
 - Customizable in any properties for animation
-- [x] Support Swift 3.0 :tada:
+- [x] Support Swift 5.0 :tada:
 - [x] Support `@IBDesignable` and `@IBInspectable`.
 you can change properties in Interface Builder(IB) inspector. then IB update your custom objects automatically.
 - [x] Compatible with ***Carthage***
@@ -62,17 +57,17 @@ you can change properties in Interface Builder(IB) inspector. then IB update you
 - [ ] SYImageView
 
 ## Demo App
-Open `Example/SYBlinkAnimationKit.xcworkspace` and run `SYBlinkAnimationKit-Example` to see a simple demonstration.
+Open `Example/BlinkAnimationKit.xcworkspace` and run `BlinkAnimationKit-Example` to see a simple demonstration.
 
 To run the example project, run `pod install` from the Example directory first.
 
 ## :large_orange_diamond: Usage
 First, Import **SYBlinkAnimationKit** in class.
 ```swift
-   import SYBlinkAnimationKit
+   import BlinkAnimationKit
 ```
 
-**SYBlinkAnimationKit** is designed to be easy to use.
+**BlinkAnimationKit** is designed to be easy to use.
 
 1. Call the SYClass. for example,` SYButton`, `SYLabel`, `SYTextField`, etc.
 2. If you use custom animation, call animation method ` startAnimating()`, ` stopAnimating()`
@@ -289,31 +284,22 @@ If SYClass is in middle of animation, this property is `true`
 
 ### CocoaPods
 
-***SYBlinkAnimationKit*** is available through [CocoaPods](http://cocoapods.org). To install
+***BlinkAnimationKit*** is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "SYBlinkAnimationKit"
-```
-
-
-### Carthage
-
-Add the following line to your `Cartfile`:
-
-```ruby
-github "shoheiyokoyama/SYBlinkAnimationKit"
+pod "BlinkAnimationKit"
 ```
 
 ## :pencil: Requirements
-- iOS 8.3+
-- Xcode 9.0+
-- Swift 3.2+
+- iOS 10.0+
+- Xcode 10.0+
+- Swift 5.0+
 
 ## :coffee: Author
 
-Shohei Yokoyama, shohei.yok0602@gmail.com
+Isuru Ranasinghe, ranasinghe.i.u@gmail.com , Shohei Yokoyama, shohei.yok0602@gmail.com
 
 ## :unlock: License
 
-***SYBlinkAnimationKit*** is available under the MIT license. See the [LICENSE file](https://github.com/shoheiyokoyama/SYBlinkAnimationKit/blob/master/LICENSE) for more info.
+***BlinkAnimationKit*** is available under the MIT license. See the [LICENSE file](https://github.com/FlammerSL/BlinkAnimationKit/blob/master/LICENSE) for more info.
